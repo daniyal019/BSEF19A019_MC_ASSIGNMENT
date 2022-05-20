@@ -23,9 +23,19 @@ public class pictorialDisplay extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pictorial_display);
         ImageView cat=(ImageView)findViewById(R.id.imageView4);
-    Intent recived=getIntent();
-int input= recived.getIntExtra("apple",1);
-cat.setImageResource(input);
+  Bundle bundle=getIntent().getExtras();
+  if(bundle!=null)
+  {
+      int img=bundle.getInt("apple");
+      cat.setImageResource(img);
+  }
+
+
+
+
+    //Intent recived=getIntent();
+//int input= recived.getIntExtra("apple",1);
+//cat.setImageResource(input);
 }
 
 
