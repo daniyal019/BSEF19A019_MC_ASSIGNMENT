@@ -35,6 +35,27 @@ if(str.equals("a")) {
 
     startActivity(intent);
 }
+               else if(str.equals("b")) {
+                    Intent intent = new Intent(learningActivity.this, pictorialDisplay.class);
+
+                    //intent.putExtra("id",edit.getText().toString());
+                    intent.putExtra("apple", R.drawable.ball);
+
+
+                    startActivity(intent);
+                }
             }
+            
+
+
+
+
+
+
+
+
+
+
+
         });
     }}
