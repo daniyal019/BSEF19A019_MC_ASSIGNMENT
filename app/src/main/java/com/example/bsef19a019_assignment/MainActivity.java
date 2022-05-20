@@ -2,6 +2,7 @@ package com.example.bsef19a019_assignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Bundle;
 import android.app.Activity;
@@ -15,6 +16,14 @@ Button btn1,btn2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+btn1=(Button) findViewById(R.id.btn1);
+btn1.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent= new Intent(MainActivity.this,learningActivity.class);
+        startActivity(intent);
+
+    }
+});
     }
 }
