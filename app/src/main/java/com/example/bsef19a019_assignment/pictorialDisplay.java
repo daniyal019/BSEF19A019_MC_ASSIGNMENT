@@ -26,8 +26,9 @@ public class pictorialDisplay extends AppCompatActivity {
   Bundle bundle=getIntent().getExtras();
   if(bundle!=null)
   {
+      String str=bundle.getString("id");
       int img=bundle.getInt("apple");
-      cat.setImageResource(img);
+          cat.setImageResource(img);
   }
 
 

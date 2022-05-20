@@ -25,14 +25,16 @@ public class learningActivity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+String str=edit.getText().toString().trim();
+if(str.equals("a")) {
+    Intent intent = new Intent(learningActivity.this, pictorialDisplay.class);
 
-                Intent intent = new Intent(learningActivity.this, pictorialDisplay.class);
-             
-                        intent.putExtra("apple", R.drawable.appl);
+    //intent.putExtra("id",edit.getText().toString());
+    intent.putExtra("apple", R.drawable.appl);
 
 
-                startActivity(intent);
-
+    startActivity(intent);
+}
             }
         });
     }}
