@@ -9,20 +9,26 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 public class learningActivity extends AppCompatActivity {
     Button btn3;
+    EditText edit;
+    TextView text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_learning);
-        btn3=(Button) findViewById(R.id.btn3);
+        btn3 = (Button) findViewById(R.id.btn3);
+        edit=(EditText)findViewById(R.id.edit);
+
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(learningActivity.this,pictorialDisplay.class);
+                if(edit.getText().toString() == "a")
+                {Intent intent = new Intent(learningActivity.this, pictorialDisplay.class);
+                intent.putExtra("apple",R.drawable.appl);
                 startActivity(intent);
-
-            }
-    }
-}
+            }}
+        });
+    }}
