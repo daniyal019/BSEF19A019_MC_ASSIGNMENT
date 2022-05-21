@@ -9,17 +9,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class question7 extends AppCompatActivity {
+public class question8 extends AppCompatActivity {
     Button btn30,btn31,btn32,btn33;
     TextView txt2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-        setContentView(R.layout.activity_question7);
-
+        setContentView(R.layout.activity_question8);
         btn30=(Button)findViewById(R.id.btn30);
         btn31=(Button)findViewById(R.id.btn31);
         btn32=(Button)findViewById(R.id.btn32);
@@ -29,12 +26,10 @@ public class question7 extends AppCompatActivity {
         btn30.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btn30.setBackgroundColor(Color.GREEN);
-                txt2.setTextColor(Color.GREEN);
-                txt2.setText("Correct Answer!!!");
-               Intent intent= new Intent(question7.this,question8.class);
-                startActivity(intent);
 
+                btn30.setBackgroundColor(Color.RED);
+                txt2.setTextColor(Color.RED);
+                txt2.setText("Wrong Choice!!!!");
 
             }
         });
@@ -52,9 +47,11 @@ public class question7 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                btn32.setBackgroundColor(Color.RED);
-                txt2.setTextColor(Color.RED);
-                txt2.setText("Wrong Choice!!!!");
+                btn32.setBackgroundColor(Color.GREEN);
+                txt2.setTextColor(Color.GREEN);
+                txt2.setText("Correct Answer!!!");
+                Intent intent= new Intent(question8.this,question9.class);
+                startActivity(intent);
             }
         });
 

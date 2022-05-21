@@ -2,6 +2,7 @@ package com.example.bsef19a019_assignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -50,8 +51,8 @@ public class question6 extends AppCompatActivity {
                 btn32.setBackgroundColor(Color.GREEN);
                 txt2.setTextColor(Color.GREEN);
                 txt2.setText("Correct Answer!!!");
-                //   Intent intent= new Intent(question4.this,question5.class);
-                // startActivity(intent);
+                  Intent intent= new Intent(question6.this,question7.class);
+                 startActivity(intent);
 
 
             }
