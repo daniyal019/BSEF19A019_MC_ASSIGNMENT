@@ -2,13 +2,12 @@ package com.example.bsef19a019_assignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.ImageView;
 
 public class ExamModule extends AppCompatActivity {
 Button btn5,btn6,btn7,btn8;
@@ -18,11 +17,11 @@ TextView txt;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_module);
 
-        btn5=(Button)findViewById(R.id.btn5);
-        btn6=(Button)findViewById(R.id.btn6);
-        btn7=(Button)findViewById(R.id.btn7);
-        btn8=(Button)findViewById(R.id.btn8);
-        txt=(TextView) findViewById(R.id.txt);
+        btn5=(Button)findViewById(R.id.btn10);
+        btn6=(Button)findViewById(R.id.btn11);
+        btn7=(Button)findViewById(R.id.btn12);
+        btn8=(Button)findViewById(R.id.btn13);
+        txt=(TextView) findViewById(R.id.txt1);
 
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +47,9 @@ TextView txt;
                 btn7.setBackgroundColor(Color.GREEN);
                 txt.setTextColor(Color.GREEN);
                 txt.setText("Correct Answer!!!");
+                Intent intent= new Intent(ExamModule.this,question2.class);
+                startActivity(intent);
+
             }
         });
 
