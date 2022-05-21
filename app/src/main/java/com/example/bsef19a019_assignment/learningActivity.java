@@ -31,6 +31,7 @@ if(str.equals("a")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.appl);
+    intent.putExtra("name1", "Apple");
 
 
     startActivity(intent);
@@ -41,7 +42,7 @@ if(str.equals("a")) {
                     //intent.putExtra("id",edit.getText().toString());
                     intent.putExtra("apple", R.drawable.ball);
 
-
+    intent.putExtra("name1", "Ball");
                     startActivity(intent);
                 }
 
@@ -50,7 +51,7 @@ else if(str.equals("c")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.cat);
-
+    intent.putExtra("name1", "Cat");
 
     startActivity(intent);
 }
@@ -61,7 +62,7 @@ else if(str.equals("d")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.dog);
-
+    intent.putExtra("name1", "Dog");
 
     startActivity(intent);
 }
@@ -71,7 +72,7 @@ else if(str.equals("e")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.elephant);
-
+    intent.putExtra("name1", "Elephant");
 
     startActivity(intent);
 }
@@ -82,7 +83,7 @@ else if(str.equals("f")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.fish);
-
+    intent.putExtra("name1", "Fish");
 
     startActivity(intent);
 }
@@ -93,7 +94,7 @@ else if(str.equals("g")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.grapes);
-
+    intent.putExtra("name1", "Grapes");
 
     startActivity(intent);
 }
@@ -103,7 +104,7 @@ else if(str.equals("h")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.hat);
-
+    intent.putExtra("name1", "Hat");
 
     startActivity(intent);
 }
@@ -114,7 +115,7 @@ else if(str.equals("i")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.ink);
-
+    intent.putExtra("name1", "Ink");
 
     startActivity(intent);
 }
@@ -124,7 +125,7 @@ else if(str.equals("j")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.jug);
-
+    intent.putExtra("name1", "Jug");
 
     startActivity(intent);
 }
@@ -134,7 +135,7 @@ else if(str.equals("k")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.kite);
-
+    intent.putExtra("name1", "Kite");
 
     startActivity(intent);
 }
@@ -144,7 +145,7 @@ else if(str.equals("l")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.lemon);
-
+    intent.putExtra("name1", "Lemon");
 
     startActivity(intent);
 }
@@ -154,7 +155,7 @@ else if(str.equals("m")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.melon);
-
+    intent.putExtra("name1", "Melon");
 
     startActivity(intent);
 }
@@ -164,7 +165,7 @@ else if(str.equals("n")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.nest);
-
+    intent.putExtra("name1", "Nest");
 
     startActivity(intent);
 }
@@ -174,7 +175,7 @@ else if(str.equals("o")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.owl);
-
+    intent.putExtra("name1", "Owl");
 
     startActivity(intent);
 }
@@ -184,7 +185,7 @@ else if(str.equals("p")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.parrot);
-
+    intent.putExtra("name1", "Parrot");
 
     startActivity(intent);
 }
@@ -195,7 +196,7 @@ else if(str.equals("q")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.quran);
-
+    intent.putExtra("name1", "Quran");
 
     startActivity(intent);
 }
@@ -205,7 +206,7 @@ else if(str.equals("r")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.rainbow);
-
+    intent.putExtra("name1", "Rainbow");
 
     startActivity(intent);
 }
@@ -215,7 +216,7 @@ else if(str.equals("s")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.star);
-
+    intent.putExtra("name1", "Star");
 
     startActivity(intent);
 }
@@ -225,7 +226,7 @@ else if(str.equals("t")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.triangle);
-
+    intent.putExtra("name1", "Triangle");
 
     startActivity(intent);
 }
@@ -236,7 +237,7 @@ else if(str.equals("u")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.unicorn);
-
+    intent.putExtra("name1", "Unicorn");
 
     startActivity(intent);
 }
@@ -246,7 +247,7 @@ else if(str.equals("v")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.violin);
-
+    intent.putExtra("name1", "Violin");
 
     startActivity(intent);
 }
@@ -256,7 +257,7 @@ else if(str.equals("w")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.watch);
-
+    intent.putExtra("name1", "Watch");
 
     startActivity(intent);
 }
@@ -266,7 +267,7 @@ else if(str.equals("x")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.xylophone);
-
+    intent.putExtra("name1", "Xylophone");
 
     startActivity(intent);
 }
@@ -276,7 +277,7 @@ else if(str.equals("y")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.yacht);
-
+    intent.putExtra("name1", "Yacht");
 
     startActivity(intent);
 }
@@ -287,7 +288,7 @@ else if(str.equals("z")) {
 
     //intent.putExtra("id",edit.getText().toString());
     intent.putExtra("apple", R.drawable.zebra);
-
+    intent.putExtra("name1", "Zebra");
 
     startActivity(intent);
 }

@@ -18,17 +18,20 @@ public class pictorialDisplay extends AppCompatActivity {
     ImageView cat;
     EditText edit;
     String select;
+    TextView textView6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pictorial_display);
         ImageView cat=(ImageView)findViewById(R.id.imageView4);
+        textView6=(TextView)findViewById(R.id.textView6);
   Bundle bundle=getIntent().getExtras();
   if(bundle!=null)
   {
-      String str=bundle.getString("id");
+      String str=bundle.getString("name1");
       int img=bundle.getInt("apple");
           cat.setImageResource(img);
+          textView6.setText("Apple");
   }
 
 
