@@ -31,7 +31,7 @@ public class pictorialDisplay extends AppCompatActivity {
       String str=bundle.getString("name1");
       int img=bundle.getInt("apple");
           cat.setImageResource(img);
-          textView6.setText("Apple");
+          textView6.setText(str);
   }
 
 
