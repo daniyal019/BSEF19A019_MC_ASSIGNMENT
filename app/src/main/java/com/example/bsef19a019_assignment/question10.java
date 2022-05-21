@@ -60,8 +60,8 @@ public class question10 extends AppCompatActivity {
                 btn33.setBackgroundColor(Color.GREEN);
                 txt2.setTextColor(Color.GREEN);
                 txt2.setText("Correct Answer!!!");
-               // Intent intent= new Intent(question8.this,question9.class);
-               // startActivity(intent);
+                Intent intent= new Intent(question10.this,Hurray.class);
+                startActivity(intent);
             }
         });
 
