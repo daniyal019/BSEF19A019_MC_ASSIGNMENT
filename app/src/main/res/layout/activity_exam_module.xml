@@ -41,7 +41,7 @@
         app:srcCompat="@drawable/appl" />
 
     <Button
-        android:id="@+id/btn10"
+        android:id="@+id/btn20"
         android:layout_width="128sp"
         android:layout_height="66sp"
         android:layout_marginStart="16dp"
@@ -51,7 +51,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/btn11"
+        android:id="@+id/btn21"
         android:layout_width="128sp"
         android:layout_height="66sp"
         android:layout_marginStart="36dp"
@@ -59,32 +59,32 @@
         android:text="b) Banana"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.349"
-        app:layout_constraintStart_toEndOf="@+id/btn10"
+        app:layout_constraintStart_toEndOf="@+id/btn20"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/btn12"
+        android:id="@+id/btn22"
         android:layout_width="128sp"
         android:layout_height="66sp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:text="c) APPLE"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn10" />
+        app:layout_constraintTop_toBottomOf="@+id/btn20" />
 
     <Button
-        android:id="@+id/btn13"
+        android:id="@+id/btn24"
         android:layout_width="128sp"
         android:layout_height="66sp"
         android:layout_marginTop="20dp"
         android:text="d) Grapes "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.755"
-        app:layout_constraintStart_toEndOf="@+id/btn12"
-        app:layout_constraintTop_toBottomOf="@+id/btn11" />
+        app:layout_constraintStart_toEndOf="@+id/btn22"
+        app:layout_constraintTop_toBottomOf="@+id/btn21" />
 
     <TextView
-        android:id="@+id/txt1"
+        android:id="@+id/txt2"
         android:layout_width="132dp"
         android:layout_height="62dp"
         android:layout_marginTop="36dp"
@@ -93,5 +93,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn13" />
+        app:layout_constraintTop_toBottomOf="@+id/btn24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,9 +7,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.ImageView;
 
 public class question2 extends AppCompatActivity {
     Button btn10,btn11,btn12,btn13;
@@ -19,11 +17,11 @@ public class question2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question2);
 
-        btn10=(Button)findViewById(R.id.btn10);
-        btn11=(Button)findViewById(R.id.btn11);
-        btn12=(Button)findViewById(R.id.btn12);
-        btn13=(Button)findViewById(R.id.btn13);
-        txt1=(TextView) findViewById(R.id.txt1);
+        btn10=(Button)findViewById(R.id.btn20);
+        btn11=(Button)findViewById(R.id.btn21);
+        btn12=(Button)findViewById(R.id.btn22);
+        btn13=(Button)findViewById(R.id.btn24);
+        txt1=(TextView) findViewById(R.id.txt2);
 
         btn10.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,8 +57,8 @@ public class question2 extends AppCompatActivity {
                 btn13.setBackgroundColor(Color.GREEN);
                 txt1.setTextColor(Color.GREEN);
                 txt1.setText("Correct Answer!!!");
-                //Intent intent= new Intent(ExamModule.this,question2.class);
-                //startActivity(intent);
+                Intent intent= new Intent(question2.this,question3.class);
+                startActivity(intent);
             }
         });
 

@@ -17,11 +17,11 @@ TextView txt;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_module);
 
-        btn5=(Button)findViewById(R.id.btn10);
-        btn6=(Button)findViewById(R.id.btn11);
-        btn7=(Button)findViewById(R.id.btn12);
-        btn8=(Button)findViewById(R.id.btn13);
-        txt=(TextView) findViewById(R.id.txt1);
+        btn5=(Button)findViewById(R.id.btn20);
+        btn6=(Button)findViewById(R.id.btn21);
+        btn7=(Button)findViewById(R.id.btn22);
+        btn8=(Button)findViewById(R.id.btn24);
+        txt=(TextView) findViewById(R.id.txt2);
 
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
