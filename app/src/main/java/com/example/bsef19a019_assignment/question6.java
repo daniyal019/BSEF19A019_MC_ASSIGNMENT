@@ -2,21 +2,20 @@ package com.example.bsef19a019_assignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class question5 extends AppCompatActivity {
+public class question6 extends AppCompatActivity {
     Button btn30,btn31,btn32,btn33;
     TextView txt2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question5);
+        setContentView(R.layout.activity_question6);
         btn30=(Button)findViewById(R.id.btn30);
         btn31=(Button)findViewById(R.id.btn31);
         btn32=(Button)findViewById(R.id.btn32);
@@ -26,11 +25,10 @@ public class question5 extends AppCompatActivity {
         btn30.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btn30.setBackgroundColor(Color.GREEN);
-                txt2.setTextColor(Color.GREEN);
-                txt2.setText("Correct Answer!!!");
-                   Intent intent= new Intent(question5.this,question6.class);
-                 startActivity(intent);
+
+                btn30.setBackgroundColor(Color.RED);
+                txt2.setTextColor(Color.RED);
+                txt2.setText("Wrong Choice!!!!");
 
 
             }
@@ -49,9 +47,13 @@ public class question5 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                btn32.setBackgroundColor(Color.RED);
-                txt2.setTextColor(Color.RED);
-                txt2.setText("Wrong Choice!!!!");
+                btn32.setBackgroundColor(Color.GREEN);
+                txt2.setTextColor(Color.GREEN);
+                txt2.setText("Correct Answer!!!");
+                //   Intent intent= new Intent(question4.this,question5.class);
+                // startActivity(intent);
+
+
             }
         });
 

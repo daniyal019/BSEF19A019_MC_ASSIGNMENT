@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".question5">
+    tools:context=".question6">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:layout_width="241dp"
             android:layout_height="70dp"
             android:layout_marginTop="103dp"
-            android:text="Q5) Identify the image :"
+            android:text="Q6) Identify the image :"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView4" />
@@ -43,7 +43,7 @@
             app:layout_constraintHorizontal_bias="0.531"
             app:layout_constraintStart_toEndOf="@+id/textView5"
             app:layout_constraintTop_toTopOf="@+id/textView4"
-            app:srcCompat="@drawable/fish" />
+            app:srcCompat="@drawable/grapes" />
 
         <Button
             android:id="@+id/btn30"
@@ -51,7 +51,7 @@
             android:layout_height="66sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="156dp"
-            android:text="a) fish"
+            android:text="a) Dog"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView5" />
 
@@ -61,7 +61,7 @@
             android:layout_height="66sp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="84dp"
-            android:text="b) Dog"
+            android:text="b) fish"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.349"
             app:layout_constraintStart_toEndOf="@+id/btn30"
@@ -73,7 +73,7 @@
             android:layout_height="66sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
-            android:text="c) cat"
+            android:text="c) Grapes"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn30" />
 
@@ -82,7 +82,7 @@
             android:layout_width="128sp"
             android:layout_height="66sp"
             android:layout_marginTop="20dp"
-            android:text="d) mouse"
+            android:text="d) Mango"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.755"
             app:layout_constraintStart_toEndOf="@+id/btn32"
