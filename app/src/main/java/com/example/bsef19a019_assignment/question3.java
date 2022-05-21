@@ -2,6 +2,7 @@ package com.example.bsef19a019_assignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -15,10 +16,10 @@ public class question3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question3);
-        btn20=(Button)findViewById(R.id.btn20);
-        btn21=(Button)findViewById(R.id.btn21);
-        btn22=(Button)findViewById(R.id.btn22);
-        btn23=(Button)findViewById(R.id.btn24);
+        btn20=(Button)findViewById(R.id.btn30);
+        btn21=(Button)findViewById(R.id.btn31);
+        btn22=(Button)findViewById(R.id.btn32);
+        btn23=(Button)findViewById(R.id.btn33);
         txt2=(TextView) findViewById(R.id.txt2);
 
         btn20.setOnClickListener(new View.OnClickListener() {
@@ -27,8 +28,8 @@ public class question3 extends AppCompatActivity {
                 btn20.setBackgroundColor(Color.GREEN);
                 txt2.setTextColor(Color.GREEN);
                 txt2.setText("Correct Answer!!!");
-                //Intent intent= new Intent(ExamModule.this,question2.class);
-                //startActivity(intent);
+                Intent intent= new Intent(question3.this,question4.class);
+                startActivity(intent);
 
             }
         });

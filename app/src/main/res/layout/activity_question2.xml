@@ -46,7 +46,7 @@
             app:srcCompat="@drawable/ball" />
 
         <Button
-            android:id="@+id/btn20"
+            android:id="@+id/btn30"
             android:layout_width="128sp"
             android:layout_height="66sp"
             android:layout_marginStart="16dp"
@@ -56,7 +56,7 @@
             app:layout_constraintTop_toTopOf="@+id/textView5" />
 
         <Button
-            android:id="@+id/btn21"
+            android:id="@+id/btn31"
             android:layout_width="128sp"
             android:layout_height="66sp"
             android:layout_marginStart="36dp"
@@ -64,29 +64,29 @@
             android:text="b) Banana"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.349"
-            app:layout_constraintStart_toEndOf="@+id/btn20"
+            app:layout_constraintStart_toEndOf="@+id/btn30"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <Button
-            android:id="@+id/btn22"
+            android:id="@+id/btn32"
             android:layout_width="128sp"
             android:layout_height="66sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
             android:text="c) APPLE"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn20" />
+            app:layout_constraintTop_toBottomOf="@+id/btn30" />
 
         <Button
-            android:id="@+id/btn24"
+            android:id="@+id/btn33"
             android:layout_width="128sp"
             android:layout_height="66sp"
             android:layout_marginTop="20dp"
             android:text="d) Ball"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.755"
-            app:layout_constraintStart_toEndOf="@+id/btn22"
-            app:layout_constraintTop_toBottomOf="@+id/btn21" />
+            app:layout_constraintStart_toEndOf="@+id/btn32"
+            app:layout_constraintTop_toBottomOf="@+id/btn31" />
 
         <TextView
             android:id="@+id/txt2"
@@ -98,6 +98,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.483"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn24" />
+            app:layout_constraintTop_toBottomOf="@+id/btn33" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,10 +17,10 @@ public class question2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question2);
 
-        btn10=(Button)findViewById(R.id.btn20);
-        btn11=(Button)findViewById(R.id.btn21);
-        btn12=(Button)findViewById(R.id.btn22);
-        btn13=(Button)findViewById(R.id.btn24);
+        btn10=(Button)findViewById(R.id.btn30);
+        btn11=(Button)findViewById(R.id.btn31);
+        btn12=(Button)findViewById(R.id.btn32);
+        btn13=(Button)findViewById(R.id.btn33);
         txt1=(TextView) findViewById(R.id.txt2);
 
         btn10.setOnClickListener(new View.OnClickListener() {
@@ -45,7 +45,7 @@ public class question2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                btn11.setBackgroundColor(Color.RED);
+                btn12.setBackgroundColor(Color.RED);
                 txt1.setTextColor(Color.RED);
                 txt1.setText("Wrong Choice!!!!");
             }
