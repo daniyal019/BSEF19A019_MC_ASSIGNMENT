@@ -25,5 +25,19 @@ btn1.setOnClickListener(new View.OnClickListener() {
 
     }
 });
+
+        btn2=(Button) findViewById(R.id.btn2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent= new Intent(MainActivity.this,ExamModule.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+
     }
 }
