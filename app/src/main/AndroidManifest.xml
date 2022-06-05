@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bsef19a019_Assignment">
         <activity
+            android:name=".ListLearning"
+            android:exported="false" />
+        <activity
             android:name=".Commits"
             android:exported="false" />
         <activity

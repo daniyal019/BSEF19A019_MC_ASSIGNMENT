@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
-Button btn1,btn2,button3,button20;
+Button btn1,btn2,button3,btn99,button20;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +55,15 @@ button20=(Button) findViewById(R.id.button20);
               intent.putExtra("a1", R.drawable.commitss);
               startActivity(intent);
           }
+        });
+
+        btn99=(Button) findViewById(R.id.btn99);
+        btn99.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this,ListLearning.class);
+                startActivity(intent);
+            }
         });
     }
 }
